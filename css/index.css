@@ -1,3 +1,15 @@
+.btn {
+  display: flex;
+  background-color: teal;
+  color: black;
+  border: 2px solid #222222;
+  border-radius: 8px;
+  font-size: x-large;
+  width: 80%;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -272,7 +284,9 @@ h1 {
   font-size: 50px;
 }
 .top-section {
-  margin: ;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
   width: 40em;
   font-size: 30px;
   margin: 0 auto 30px;

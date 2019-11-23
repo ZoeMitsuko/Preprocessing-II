@@ -4,7 +4,12 @@
     Border: none;
     Padding:5px
 }
-
+/* mixins */
+.displayFlex () {
+    Display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .btnlayout (@justify , @align){
     display: flex;
@@ -19,7 +24,17 @@
     align-items: @align;
 }
 
-.btn {
-    .btnlayout (center, center);
-}
 
+
+.flexboxmobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  /* mixins */
+.flexboxmobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
